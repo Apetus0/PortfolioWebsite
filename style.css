@@ -80,6 +80,7 @@
 
 #ele-visir {
     width: 300px;
+    border-radius:18px;
 }
 
 hr {
@@ -95,16 +96,15 @@ hr {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    border-collapse: collapse;
+    margin-bottom:45px;
 
 }
 #resumeFriends caption{
     padding:6px;
 }
-#resumeFriends thead{
-    text-align:left;
-}
 #resumeFriends thead, th, td {
-    border: 1px solid goldenrod; 
+    border: 1.5px solid goldenrod; 
     padding:3px;
     text-align: left;
 }

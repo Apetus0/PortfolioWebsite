@@ -24,14 +24,15 @@
     </nav>
     <section id="showcase">
         <div class="container">
-            <h2><a id="realmwalkerLink" href="https://www.google.com/search?q=astral+plane+sea+ttrpg&udm=2"><em>Realmwalker,</em></a><span id="realmwalker"> They Who Walk Amoung the Stars</span></h2>
-            <h4 id="date-container"></h4>
+            <h2><a id="realmwalkerLink" href="https://www.google.com/search?q=astral+plane+sea+ttrpg&udm=2"><em>Realmwalker,</em></a><span id="realmwalker"> They Who Walk Amidst the Stars</span></h2>
+            <h4 id="date-container">Time</h4>
             <script>
                 function myFunction() {
+                    const time = "DateTime: ";
                     const now = new Date();
                     const formattedDateTime = now.toLocaleString();
                     console.log(formattedDateTime);
-                    document.getElementById('date-container').innerHTML = formattedDateTime;
+                    document.getElementById('date-container').innerHTML = time + formattedDateTime;
                 }
 
                 myFunction();
@@ -74,30 +75,30 @@
         <thead>
             <tr>
                 <th>Sorcery Field</th>
-                <th>Features</th>
-                <th>Mastery Age</th>
+                <th>Sorcerous Abilities</th>
+                <th>Sorcery Attained</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Demesne Creation</td>
-                <td>Up to 9 mi², Matter Creation & Desctruction</td>
-                <td>17</td>
+                <td>Up to 9 mi², Matter Creation & Destruction</td>
+                <td>17 years old</td>
             </tr>
             <tr>
                 <td>Teleportation</td>
                 <td>Place they've been, Portal Creation</td>
-                <td>21</td>
+                <td>21 years old</td>
             </tr>
             <tr>
                 <td>Temporal</td>
                 <td>Rewind body condition, Future Sight </td>
-                <td>26</td>
+                <td>26 years old</td>
             </tr>
             <tr>
                 <td>Gravity Manipulation</td>
                 <td>Telekinesis, Flight, Force Field</td>
-                <td>31</td>
+                <td>31 years old</td>
             </tr>
             
         </tbody>
