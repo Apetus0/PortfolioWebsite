@@ -22,6 +22,28 @@
             </ul>
         </div>
     </nav>
+    <section>
+        <div class="container">
+            <h1>Realmwalker </h1>
+        </div>
+    </section>
+    <main>
+        <div class="container">
+            <p id="date-container"></p>
+            <script>
+                function myFunction() {
+                    const now = new Date();
+                    const formattedDateTime = now.toLocaleString();
+                    console.log(formattedDateTime);
+                    document.getElementById('date-container').innerHTML = formattedDateTime;
+                }
+
+                myFunction();
+                setInterval(myFunction, 1000);
+
+            </script>
+        </div>
+    </main>
 
 </body>
 </html>
