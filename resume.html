@@ -6,14 +6,14 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <header id="mainHeader">
+    <header id="resumeMainHeader">
         <div class="container">
-            <h1>
+            <h1 id="resumeHeader">
                 Ele-Visir's Resume
             </h1>
         </div>
     </header>
-    <nav id="navbar">
+    <nav id="resumeNavbar">
         <div class="container">
             <ul>
                 <li><a href="resume.html">Resume</a></li>
@@ -24,7 +24,7 @@
     </nav>
     <section id="showcase">
         <div class="container">
-            <h2>Realmwalker,<span>They Who Walk Amoung the Stars</span></h2>
+            <h2>Realmwalker,<span id="realmwalker"> They Who Walk Amoung the Stars</span></h2>
             <h4 id="date-container"></h4>
             <script>
                 function myFunction() {
@@ -40,7 +40,7 @@
             </script>
         </div>
     </section>
-    <main>
+    <main class="resumeMain">
         <div class="container">
             <h3>Skills</h3>
             <p>Clita consetetur adipiscing eros dolor takimata vulputate accusam consetetur<br /> vel amet veniam sanctus sit tation tincidunt ea aliquam takimata dolor</p>
@@ -52,16 +52,22 @@
             <p>Clita consetetur adipiscing eros dolor takimata vulputate accusam <br />consetetur vel amet veniam sanctus sit tation tincidunt ea aliquam takimata dolor</p>
             <p>Sit ipsum sed dolor et eu et nostrud rebum elitr amet elitr kasd lorem rebum sea lorem et vulputate commodo</p>
         </div>
-        <div class="container">
-            <aside id="sidebar"></aside>
-            <h3>Ele-Visir</h3>
-            <ul id="list">
-                <li>Astral Fae</li>
-                <li>Over 3000 years old</li>
-                <li>Likes chaos</li>
-            </ul>
-        </div>
+        
     </main>
+    <section>
+        <div class="container">
+            <aside id="resumeSidebar">
+                <strong>
+                    <h3>Ele-Visir</h3>
+                    <ul id="list">
+                        <li>Astral Fae</li>
+                        <li>Over 3000 years old</li>
+                        <li>Likes chaos</li>
+                    </ul>
+                </strong>
+            </aside>
+        </div>
+    </section>
     <footer id="mainFooter">
         <p>Copyright &copy; 2026 Realmwalker</p>
     </footer>

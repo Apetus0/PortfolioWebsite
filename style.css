@@ -1,4 +1,14 @@
 ﻿body {
+    background-color: #a17bd1;
+    color: #5c3798;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+#resumeMainHeader{
+    background-color:#5c3798;
+    color:#be8afa;
 }
 .container{
     width:80%;
@@ -6,3 +16,65 @@
     overflow:hidden;
 }
 
+#resumeNavbar{
+    background-color:gold;
+    color:white;
+
+}
+
+#resumeNavbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#resumeNavbar li {
+    display: inline;
+}
+
+#resumeNavbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#realmwalker{
+    font-size:20px;
+}
+#showcase {
+    background-image: url('astral.webp');
+    background-position:bottom;
+    min-height: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#showcase h2 {
+       
+        font-size: 26px;
+        line-height: 1.6em;
+        padding-top: 30px;
+    }
+.main{
+    float:left;
+    width:70%;
+    padding: 0 30px;
+
+}
+
+#resumeSidebar {
+    font-family: 'Ink Free';
+    color: gold;
+    float: right;
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#mainFooter {
+    background: #702eb2;
+    color: #be8afa;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
