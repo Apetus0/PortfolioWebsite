@@ -155,5 +155,29 @@ hr {
 /*End of Resume CSS*/
 
 /*Cover Letter CSS*/
+.coverLetterMain {
+    float: right;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
 
+
+#coverLetterSidebar {
+    font-family: 'Ink Free';
+    color: goldenrod;
+    float: left;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+#coverLetterSidebar p{
+    line-height:9px;
+}
+
+#coverLetterSidebar #eleSidebar{
+    font-size:40px;
+}
 /*End of Cover Letter CSS*/
