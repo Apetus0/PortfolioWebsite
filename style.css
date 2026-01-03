@@ -1,4 +1,5 @@
-﻿body {
+﻿/*Resume CSS*/
+body {
     background-color: #a17bd1;
     color: #5c3798;
     font-family: Arial, Arial, Helvetica, sans-serif;
@@ -43,16 +44,16 @@
     font-size: 20px;
 }
 
-#realmwalkerLink:hover{
-    color:goldenrod;
+#realmwalkerLink:hover {
+    color: goldenrod;
 }
+
 #showcase {
     background-image: url('astral.webp');
     background-position: bottom;
     min-height: 100px;
     margin-bottom: 20px;
     text-align: center;
-
 }
 
     #showcase h2 {
@@ -68,22 +69,22 @@
     box-sizing: border-box;
 }
 
-.resumeJourneys{
-    font-style:italic;
+.resumeJourneys p {
+    font-style: italic;
 }
 
-    .resumeJourneys #journey {
-        padding: 10px 15px;
-        background-color: #5c3798;
-        color: goldenrod;
-        border: none;
-        border-radius:6px;
-    }
-        .resumeJourneys #journey:hover {
-            background-color: goldenrod;
-            color: #5c3798;
-        }
+.resumeJourneys #journey {
+    padding: 10px 15px;
+    background-color: #5c3798;
+    color: goldenrod;
+    border: none;
+    border-radius: 6px;
+}
 
+    .resumeJourneys #journey:hover {
+        background-color: goldenrod;
+        color: #5c3798;
+    }
 
 #resumeSidebar {
     font-family: 'Ink Free';
@@ -93,47 +94,45 @@
     padding: 10px;
     box-sizing: border-box;
     font-weight: bold;
-    
 }
+
 #list {
     List-style-type: circle;
 }
 
-
 #ele-visir {
     width: 300px;
-    border-radius:18px;
+    border-radius: 18px;
 }
 
-*{
-    
+* {
+    box-sizing: border-box;
 }
+
 hr {
-    border:none;
-    height:2px;
+    border: none;
+    height: 2px;
     background-color: goldenrod;
-    
-  
 }
 
 #resumeFriends {
-    
     width: 80%;
     margin: auto;
     overflow: hidden;
     border-collapse: collapse;
-    margin-bottom:45px;
+    margin-bottom: 45px;
+}
 
-}
-#resumeFriends caption{
-    padding:6px;
-}
-#resumeFriends thead, th, td {
-    border: 1.5px solid goldenrod; 
-    padding:3px;
-    text-align: left;
-    
-}
+    #resumeFriends caption {
+        padding: 6px;
+    }
+
+    #resumeFriends thead, th, td {
+        border: 1.5px solid goldenrod;
+        padding: 3px;
+        text-align: left;
+    }
+
 #mainFooter {
     background: #702eb2;
     color: #be8afa;
@@ -153,3 +152,8 @@ hr {
         float: none;
     }
 }
+/*End of Resume CSS*/
+
+/*Cover Letter CSS*/
+
+/*End of Cover Letter CSS*/
