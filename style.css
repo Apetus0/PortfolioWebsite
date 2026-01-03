@@ -161,8 +161,29 @@ hr {
     padding: 0 30px;
     box-sizing: border-box;
 }
+.container #coverLetterSecOne{
+    margin-top:50px;
+    line-height:10px;
+}
 
+    .container #coverLetterSecOne h3 {
+        font-size: 20px;
+    }
 
+.container #coverLetterSecOne P{
+    font-size:15px;
+}
+
+#coverLetterSecTwo #coverLetterFinal {
+    line-height: 10px;
+    font-family: 'Ink Free';
+    color: goldenrod;
+    font-size:20px;
+}
+#deepCosmos{
+    font-style:italic;
+    font-weight:bold;
+}
 #coverLetterSidebar {
     font-family: 'Ink Free';
     color: goldenrod;
@@ -170,6 +191,7 @@ hr {
     width: 30%;
     padding: 10px;
     box-sizing: border-box;
+    margin-top:15px;
     
 }
 
@@ -179,5 +201,18 @@ hr {
 
 #coverLetterSidebar #eleSidebar{
     font-size:40px;
+}
+
+
+@media(max-width:600px) {
+    .coverLetterMain {
+        width: 100%;
+        float: none;
+    }
+
+    #coverLetterSidebar {
+        width: 100%;
+        float: none;
+    }
 }
 /*End of Cover Letter CSS*/
