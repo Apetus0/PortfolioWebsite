@@ -203,7 +203,7 @@ hr {
 }
 
     #coverLetterSidebar p {
-        line-height: 9px;
+        line-height:normal;
     }
 
     #coverLetterSidebar #eleSidebar {
