@@ -6,75 +6,124 @@
     line-height: 1.6em;
     margin: 0;
 }
-#resumeMainHeader{
-    background-color:#5c3798;
-    color:#be8afa;
-}
-.container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
+
+#resumeMainHeader {
+    background-color: #5c3798;
+    color: #be8afa;
 }
 
-#resumeNavbar{
-    background-color:gold;
-    color:white;
-
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-#resumeNavbar ul {
-    padding: 0;
-    list-style: none;
-}
-
-#resumeNavbar li {
-    display: inline;
-}
-
-#resumeNavbar a {
+#resumeNavbar {
+    background-color: goldenrod;
     color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding-right: 15px;
 }
-#realmwalker{
-    font-size:20px;
+
+    #resumeNavbar ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    #resumeNavbar li {
+        display: inline;
+    }
+
+    #resumeNavbar a {
+        color: #5c3798;
+        text-decoration: none;
+        font-size: 18px;
+        padding-right: 15px;
+    }
+
+#realmwalker {
+    font-size: 20px;
+}
+
+#realmwalkerLink:hover{
+    color:goldenrod;
 }
 #showcase {
     background-image: url('astral.webp');
-    background-position:bottom;
+    background-position: bottom;
     min-height: 100px;
     margin-bottom: 20px;
     text-align: center;
+
 }
 
-#showcase h2 {
-       
+    #showcase h2 {
         font-size: 26px;
         line-height: 1.6em;
         padding-top: 30px;
     }
-.main{
-    float:left;
-    width:70%;
-    padding: 0 30px;
 
+.resumeMain {
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
 }
 
 #resumeSidebar {
     font-family: 'Ink Free';
-    color: gold;
+    color: goldenrod;
     float: right;
     width: 30%;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight:bold;
 }
 
+#ele-visir {
+    width: 300px;
+}
+
+hr {
+    border:none;
+    height:2px;
+    background-color: goldenrod;
+    
+  
+}
+
+#resumeFriends {
+    
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+#resumeFriends caption{
+    padding:6px;
+}
+#resumeFriends thead{
+    text-align:left;
+}
+#resumeFriends thead, th, td {
+    border: 1px solid goldenrod; 
+    padding:3px;
+    text-align: left;
+}
 #mainFooter {
     background: #702eb2;
     color: #be8afa;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+@media(max-width:600px) {
+    .resumeMain {
+        width: 100%;
+        float: none;
+    }
+
+    #resumeSidebar {
+        width: 100%;
+        float: none;
+    }
 }
