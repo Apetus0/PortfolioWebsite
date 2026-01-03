@@ -22,6 +22,7 @@ body {
 #resumeNavbar {
     background-color: goldenrod;
     color: white;
+    margin-bottom: 0;
 }
 
     #resumeNavbar ul {
@@ -54,6 +55,10 @@ body {
     min-height: 100px;
     margin-bottom: 20px;
     text-align: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    box-sizing: content-box;
 }
 
     #showcase h2 {
@@ -161,29 +166,32 @@ hr {
     padding: 0 30px;
     box-sizing: border-box;
 }
-.container #coverLetterSecOne{
-    margin-top:50px;
-    line-height:10px;
+
+.container #coverLetterSecOne {
+    margin-top: 50px;
+    line-height: 10px;
 }
 
     .container #coverLetterSecOne h3 {
         font-size: 20px;
     }
 
-.container #coverLetterSecOne P{
-    font-size:15px;
-}
+    .container #coverLetterSecOne P {
+        font-size: 15px;
+    }
 
 #coverLetterSecTwo #coverLetterFinal {
     line-height: 10px;
     font-family: 'Ink Free';
     color: goldenrod;
-    font-size:20px;
+    font-size: 20px;
 }
-#deepCosmos{
-    font-style:italic;
-    font-weight:bold;
+
+#deepCosmos {
+    font-style: italic;
+    font-weight: bold;
 }
+
 #coverLetterSidebar {
     font-family: 'Ink Free';
     color: goldenrod;
@@ -191,17 +199,16 @@ hr {
     width: 30%;
     padding: 10px;
     box-sizing: border-box;
-    margin-top:15px;
-    
+    margin-top: 15px;
 }
 
-#coverLetterSidebar p{
-    line-height:9px;
-}
+    #coverLetterSidebar p {
+        line-height: 9px;
+    }
 
-#coverLetterSidebar #eleSidebar{
-    font-size:40px;
-}
+    #coverLetterSidebar #eleSidebar {
+        font-size: 40px;
+    }
 
 
 @media(max-width:600px) {
@@ -216,3 +223,100 @@ hr {
     }
 }
 /*End of Cover Letter CSS*/
+
+/*Career Goals*/
+#careerShowcase {
+    background-image: url('space.jpg');
+    background-position: center;
+    min-height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+    #careerShowcase h2 {
+        font-size: 26px;
+        line-height: 1.6em;
+        padding-top: 30px;
+        color: goldenrod;
+        margin-top: 0;
+    }
+
+#kurz {
+    float: left;
+    width: 55%; /* Keep just one */
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 2px;
+    border-right: 2px solid goldenrod;
+    text-align: center;
+}
+
+    #kurz video {
+        max-width: 100%;
+        height: auto;
+    }
+
+#form {
+    text-align: left;
+    ;
+    width: 40%;
+    float: right;
+}
+
+.my-form #form2 {
+    display: block;
+}
+
+.my-form input[type="text"], [type="email"], [type="tel"], .my-form textarea {
+    padding: 8px;
+    width: 55%;
+}
+
+.my-form input[type="number"] {
+    width: 8%;
+}
+
+.my-form select {
+    display: block;
+}
+
+.my-form input {
+    padding: 10px 15px;
+    background-color: white;
+    color: goldenrod;
+    border: none;
+    border-radius: 6px;
+}
+
+.form-group-radio input[type="radio"] {
+        accent-color: goldenrod;
+    }
+
+.my-form textarea {
+    padding: 10px 15px;
+    background-color: white;
+    color: goldenrod;
+    border: none;
+    border-radius: 6px;
+}
+
+.my-form #formButton {
+    padding: 20px 30px;
+    background-color: #5c3798;
+    color: goldenrod;
+    border: none;
+    border-radius: 6px;
+}
+
+    .my-form #formButton:hover {
+        background-color: goldenrod;
+        color: #5c3798;
+    }
+
+.my-form select {
+    padding: 5px 7px;
+    background-color: white;
+    color: #5c3798;
+    border: none;
+    border-radius: 6px;
+}
