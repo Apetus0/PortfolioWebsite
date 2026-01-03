@@ -68,6 +68,23 @@
     box-sizing: border-box;
 }
 
+.resumeJourneys{
+    font-style:italic;
+}
+
+    .resumeJourneys #journey {
+        padding: 10px 15px;
+        background-color: #5c3798;
+        color: goldenrod;
+        border: none;
+        border-radius:6px;
+    }
+        .resumeJourneys #journey:hover {
+            background-color: goldenrod;
+            color: #5c3798;
+        }
+
+
 #resumeSidebar {
     font-family: 'Ink Free';
     color: goldenrod;
@@ -75,14 +92,22 @@
     width: 30%;
     padding: 10px;
     box-sizing: border-box;
-    font-weight:bold;
+    font-weight: bold;
+    
 }
+#list {
+    List-style-type: circle;
+}
+
 
 #ele-visir {
     width: 300px;
     border-radius:18px;
 }
 
+*{
+    
+}
 hr {
     border:none;
     height:2px;
@@ -107,6 +132,7 @@ hr {
     border: 1.5px solid goldenrod; 
     padding:3px;
     text-align: left;
+    
 }
 #mainFooter {
     background: #702eb2;
