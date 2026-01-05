@@ -222,9 +222,19 @@ hr {
         float: none;
     }
 }
+
+mark {
+    background-color: goldenrod;
+    color:#5c3798;
+}
 /*End of Cover Letter CSS*/
 
 /*Career Goals*/
+#blackhole{
+    width:400px;
+    float:left;
+    margin-right:15px;
+}
 #careerShowcase {
     background-image: url('space.jpg');
     background-position: center;
